@@ -18,6 +18,7 @@ namespace SimpleChatServer
 
             builder.Services.AddScoped<IServices, UserService>();
             builder.Services.AddScoped<IServices, ChatService>();
+
             builder.Services.AddControllers();
 
             var app = builder.Build();
